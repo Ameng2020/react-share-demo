@@ -14,7 +14,7 @@ const App = () => {
         <meta property="og:title" content="React 分享 Demo" />
         <meta property="og:description" content="这是一个用于测试分享卡片的React项目" />
         <meta property="og:image" content={`${window.location.origin}/images/xiaoxin.jpg`} />
-        <meta property="og:url" content="http://localhost:3000" />
+        <meta property="og:url" content={window.location.href} />
 
         {/* Twitter Card meta tags */}
         <meta name="twitter:card" content="summary_large_image" />

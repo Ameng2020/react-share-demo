@@ -13,28 +13,19 @@ const App = () => {
         {/* Open Graph meta tags */}
         <meta property="og:title" content="React 分享 Demo" />
         <meta property="og:description" content="这是一个用于测试分享卡片的React项目" />
-        <meta
-          property="og:image"
-          content="https://via.placeholder.com/1200x630.png?text=Share+Card+Image"
-        />
+        <meta property="og:image" content={`${window.location.origin}/images/xiaoxin.jpg`} />
         <meta property="og:url" content="http://localhost:3000" />
 
         {/* Twitter Card meta tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="React 分享 Demo" />
         <meta name="twitter:description" content="这是一个用于测试分享卡片的React项目" />
-        <meta
-          name="twitter:image"
-          content="https://via.placeholder.com/1200x630.png?text=Share+Card+Image"
-        />
+        <meta name="twitter:image" content={`${window.location.origin}/images/xiaoxin.jpg`} />
 
         {/* 微信额外支持的标签 */}
         <meta itemProp="name" content="你的分享标题" />
         <meta itemProp="description" content="你的分享描述内容" />
-        <meta
-          itemProp="image"
-          content="https://ameng2020.github.io/react-share-demo/public/images/xiaoxin.jpg"
-        />
+        <meta itemProp="image" content={`${window.location.origin}/images/xiaoxin.jpg`} />
       </Helmet>
 
       <header className="App-header">

@@ -27,6 +27,14 @@ const App = () => {
           name="twitter:image"
           content="https://via.placeholder.com/1200x630.png?text=Share+Card+Image"
         />
+
+        {/* 微信额外支持的标签 */}
+        <meta itemProp="name" content="你的分享标题" />
+        <meta itemProp="description" content="你的分享描述内容" />
+        <meta
+          itemProp="image"
+          content="https://ameng2020.github.io/react-share-demo/public/images/xiaoxin.jpg"
+        />
       </Helmet>
 
       <header className="App-header">
